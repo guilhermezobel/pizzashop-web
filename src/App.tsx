@@ -1,9 +1,10 @@
-
+import { Button } from './components/ui/button'
+import './global.css'
 
 export function App() {
-  const [count, setCount] = useState(0)
-
   return (
-   <h1>Hello World</h1>
+    <div className="flex justify-center items-center h-screen">
+      <Button>Enviar</Button>
+    </div>
   )
 }
